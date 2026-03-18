@@ -11,6 +11,10 @@ Includes full CRUD, data validation, request-logging middleware, API-key authent
 UserManagementApi/
 ├── Controllers/
 │   └── UsersController.cs      # GET, POST, PUT, DELETE endpoints
+<<<<<<< HEAD
+=======
+├── Docs/                       # Copilot Activity Docs
+>>>>>>> 865ba11d241e4a5833ce2a873825080d495a14f9
 ├── DTOs/
 │   └── UserDtos.cs             # CreateUserDto, UpdateUserDto, UserResponseDto
 ├── Middleware/
@@ -135,6 +139,7 @@ git branch -M main
 git push -u origin main
 ```
 
+<<<<<<< HEAD
 ---
 
 ## 🏆 Grading Checklist
@@ -150,6 +155,12 @@ git push -u origin main
 > **Copilot debugging note:** GitHub Copilot was used to identify an off-by-one bug in
 > the duplicate-email check (`excludeId` parameter) and to suggest the `Stopwatch`-based
 > timing pattern in `RequestLoggingMiddleware`.
+=======
+
+> **Copilot debugging note:** GitHub Copilot was used to identify an off-by-one bug in
+> the duplicate-email check (`excludeId` parameter) and to suggest the `Stopwatch`-based
+
+>>>>>>> 865ba11d241e4a5833ce2a873825080d495a14f9
 
 ---
 
